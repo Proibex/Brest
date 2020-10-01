@@ -1,0 +1,496 @@
+/*----------------------------------------------------------------------------------------CSS-------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------Body---------------------------*/
+*{
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	box-sizing:border-box;	
+}
+body{
+	overflow-y: scroll;
+	font-family: 'Advent Pro'!important;
+	animation: transitionIn 0.75s;
+}
+body::-webkit-scrollbar{
+	display: none;
+}
+body{
+	-ms-overflow-style: none;
+}
+body {
+	overflow-x: hidden;
+}
+@keyframes transitionIn {
+	from{
+		opacity:0;
+		transform:rotateX(-10deg);
+	}
+	to{
+		opacity:1;
+		transform:rotateX(0);
+	}
+}
+/*-------------------Navigation---------------*/
+#nav-bar{
+    position: fixed;
+    top:0px;
+	z-index:10;
+	width:100vw;
+}
+.navbar-brand img{
+	height:45px;
+	width:45px;
+}
+.navbar-nav li{
+	padding:0 0 0 18px;
+}
+.navbar-nav li a{
+	text-align:right!important;
+}
+#nav-bar ul li a:hover{
+	color:#aecf4b! important;
+}
+.navbar-toggler{
+	border:none! important;
+}
+.nav-link{
+	color:rgb(13, 48, 2)! important;
+	font-size:23px;
+}
+/*---------------------SLider-------------------*/
+.carousel-item h5{
+	font-size:100px;
+	color:#e8e8e8;
+}
+.carousel-caption p{
+	font-size: 60px;
+	color:#e8e8e8;
+}
+.carousel{
+	height:100%;
+	width:100vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+.active img{
+	height: 100vh;
+}
+.carousel-caption img{
+	width:60%;
+	height: 30%;
+} 
+.carousel-caption{
+	padding: 12% 0%!important;
+}
+/*-------------------------About-----------------------------*/
+.row{
+	padding-left: 14%;
+	padding-right: 14%;
+	padding-top: 4%;
+	padding-bottom: 2%;
+}
+.background-about{
+	background-color: #f3f3f3;
+	font-size: 21px;
+}
+.container-about{
+	text-align: center;
+}
+.container-about h1{
+	font-size: 50px;
+}
+.nesto h3{
+	font-size: 45px;
+}
+#about{
+	height:80%;
+	padding-top: 5%;
+	padding-bottom: 4%;
+}
+/*---------------------------Usluge-------------------------*/
+#usluge{
+	background-image:url('../images/usluge-naslovna.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 5%;
+	color:#e8e8e8;
+	height:100%;
+}
+.container-usluge{
+	text-align:center;
+	padding: 1% 10%!important;
+}
+#usluge h1{
+	font-size: 60px;
+}
+.centerwrapper{
+	text-align: center;
+	padding:30px 15%!important;
+}
+.services a{
+	color: #e8e8e8;
+}
+.services h3{
+	font-size: 36px;
+	text-align:center;
+}
+.services a:hover{
+	color: #b9b9b9;
+	text-decoration: none;
+	margin: auto;
+}
+.services{
+	padding: 4%;
+	margin: auto;
+}
+.usluge-slika1{
+	background-image:url('../images/merenje3.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	width: 250px;
+	height:250px;
+}
+.usluge-slika2{
+	background-image:url('../images/secenje4.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	width: 250px;
+	height:250px;
+}
+.usluge-slika3{
+	background-image:url('../images/kantovanje6.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	width: 250px;
+	height:250px;
+}
+.usluge-slika4{
+	background-image:url('../images/farbanje.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	width: 250px;
+	height:250px;
+}
+.usluge-slika5{
+	background-image:url('../images/sastavljanje2.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	width: 250px;
+	height:250px;
+}
+.usluge-slika6{
+	background-image:url('../images/montaza.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	width: 250px;
+	height:250px;
+}
+/*--------------------------------------------------Galerija-------------------------------*/
+#gallery{
+	background-image:url('../images/galerija-naslovna.jpg');
+	height: 100%;
+	width:100%;
+	color:#e8e8e8;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	display: block;
+}
+.gallery-container h1{
+	text-align: center;
+	font-size: 60px;
+}
+.gallery-container{
+	padding: 2%;
+}
+.gallery-row{
+	padding: 4% 12%;
+}
+.gallery-col{
+	width: 100%;
+	height: 100%;
+	padding: 1.4%;
+}
+.gallery-slika1{
+	background-image:url('../images/pk-slika1.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 22% 0;
+}
+.gallery-slika2{
+	background-image:url('../images/ps-slika9.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 22% 0;
+}
+.gallery-slika3{
+	background-image:url('../images/kp-slika7.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 22% 0;
+}
+.gallery-slika4{
+	background-image:url('../images/pp-slika1.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 22% 0;
+}
+.text{
+	font-size: 43px;
+	background-color: black;
+	opacity:0.75;
+	color: #e8e8e8;
+	text-align: center;
+	
+}
+.gallery-col a:hover{
+	text-decoration: none;
+	color: white;
+}
+.gallery-col :hover{
+	transform: scale(1.015);
+}
+/*----------------------------------------Recerenc lsita--------------------------------------------------*/
+.referenc-container{
+	height:auto;
+	width: 75%;
+	color:#e8e8e8;
+	background-image:url('../images/opacity.png');
+	background-size: cover;
+	background-position: center;
+	padding-top: 60px;
+
+	margin: auto;	
+}
+.referenc-container li{
+	text-align: left;
+	list-style: none;
+}
+#reference{
+	padding: 5% 10%;
+	width: 100vw;
+	background-image:url('../images/reference-naslovna.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.referenc-container h1{
+	text-align: center;
+	font-size: 50px;
+}
+.referenc-container li{
+	font-size: 22px;
+}
+/*----------------------------Footer-------------*/
+#footer{
+	padding-top: 2%;
+	background-color: #282828;
+	color: #e8e8e8;
+	width: 100vw;
+	padding-bottom: 3%;
+}
+.footer{
+	background-color: #363636;
+	color: #e8e8e8;
+}
+.footer1 ul li{
+	color:#707070;
+	list-style: none;
+	font-size: 22px;
+}
+.footer1 ul li a{
+	color:#707070;
+}
+.footer1 ul li a:hover{
+	color:#e8e8e8;
+}
+.footer2 ul li{
+	color:#707070;
+	list-style: none;
+	font-size: 22px;
+}
+.footer2 ul li a{
+	color:#707070;
+}
+.footer2 ul li a:hover{
+	color:#e8e8e8;
+}
+.footer-row{
+	padding-left: 10%;
+	padding-right: 2%;
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+.footer1{
+	padding-right:20%;
+}
+.footer2{
+	padding-right:30%;
+}
+.footer3{
+	border: #e8e8e8;
+	border-style: solid;
+	border-radius:20px;
+	width:480px;
+	padding-right: 0;
+}
+.footer-logo{
+	padding: 0 10%;
+	padding-top:7%;
+	display: block;
+}
+
+.footer3 img{
+	width:90%;
+	height:60%;
+	margin-bottom:5%;
+}
+.info i,span{
+	font-size:25px;
+
+}
+.info p{
+	font-size:22px;
+
+}
+.info a{
+	font-size:22px;
+	color: #e8e8e8;
+}
+.info a:hover{
+	color: #707070;
+	text-decoration: none;
+}
+.info{
+	padding:3% 7%;
+}
+.dm{
+	margin: auto;
+	padding: 2% 10%;
+}
+.dm li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 12%;
+	padding-right:12%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	color:#e8e8e8;
+}
+.dm li a i{
+	color: #e8e8e8;
+	font-size: 40px;
+}
+.dm span{
+	list-style: none;
+	display: inline-block;
+	color:#e8e8e8;
+	font-size: 40px;
+}
+.dm li a:hover{
+	color: #707070;
+}
+/*--------------------------------Footer2--------------------------------------*/
+.footer-row2{
+	background-color:#202020;
+	height:60px;
+	color:#404040;
+	text-align:center; 
+	width: 100%;
+	font-size: 18px;
+	padding-top:17px;
+}
+/*---------------------------------------Galerija------------------------------------------------*/
+#galerija{
+	padding:120px 100px;
+	background-color: #f3f3f3;
+}
+.container-galerija img{
+	width:45%;
+	height:10%;
+	padding: 5px;
+	transition:0.6s;
+}
+.container-galerija img:hover{
+	transform: scale(1.05);
+
+}
+.container-galerija{
+	padding-top:50px;
+}
+
+/*---------------------------------------Merenje------------------------------------------------*/
+.merenje-naslovna{
+	background-image: url('../images/merenje3.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+}
+.merenje-con{
+	padding: 4% 18%;
+	font-size: 24px;
+}
+.merenje-con h1{
+	font-size: 60px;
+}
+#merenje img{
+	height: 500px;
+	width: 450px;
+}
+.projektovanje img{
+	display: inline;
+
+}
+/*--------------------------------------Secenje------------------------------------------------*/
+.secenje-naslovna{
+	background-image: url('../images/secenje6.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 80vh;
+}
+.secenje-con li{
+	display: inline-block;
+}
+
+/*---------------------------------------Kanotovanje------------------------------------------------*/
+.kanotvanje-naslovna{
+	background-image: url('../images/kantovanje.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+}
+/*---------------------------------------Farbanje------------------------------------------------*/
+.farbanje-naslovna{
+	background-image: url('../images/farbanje.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+}
+/*---------------------------------------Transport------------------------------------------------*/
+.transport-naslovna{
+	background-image: url('../images/transport.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+}
+/*---------------------------------------Montaza------------------------------------------------*/
+.montaza-naslovna{
+	background-image: url('../images/montaza.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+}
